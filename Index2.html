@@ -1,32 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#1885ed">
-    <link rel="stylesheet" href="login page/style.css">
-    <script type="text/javascript" src="login page/script.js"></script>
-    <title>resume</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="home/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-
 <body>
-<!--ring div starts here-->
-<div class="ring">
-  <i style="--clr:#00ff0a;"></i>
-  <i style="--clr:#ff0057;"></i>
-  <i style="--clr:#fffd44;"></i>
-  <div class="login">
-    <h2>Login</h2>
-    <div class="inputBx">
-      <input type="text" placeholder="Username" class="username" id="username">
+    <div class="container" data-aos="fade-down">
+        <header class="section">
+            <h1>mochammad raka maulana</h1>
+            <p>siswa smk ypm 1 taman</p>
+            <img src="gambar/raka.jfif">
+        </header>
+        <section class="section">
+            <h2>Education</h2>
+            <p>smk ypm 1 taman jurusan tkj</p>
+            <p>institut teknologi sepuluh november,insyaallah</p>
+        </section>
+        <section class="section">
+            <h2>Experience</h2>
+            <p>coding website dengan html,css,dan javascript</p>
+            <p>topologi jaringan dengan cisco</p>
+        </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>coding(otw)</li>
+                <li>jaringan(otw)</li>
+                <li>elektro(otw)</li>
+            </ul>
+        </section>
     </div>
-    <div class="inputBx">
-      <input type="password" placeholder="Password" class="password" id="password">
-    </div>
-    <div class="inputBx">
-      <span id="result"></span>
-    </div>
-    <div class="inputBx">
-      <button class="sign" type="submit" onclick="validateLogin()"><p>sign in</p></button>
-    </div>
-  </div>
-</div>
-<!--ring div ends here-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+</html>
+```
