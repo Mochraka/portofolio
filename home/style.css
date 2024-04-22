@@ -1,0 +1,52 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 750px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h1, h2, p {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .section img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 2px solid blue;
+            position: absolute;
+            top: 20px;
+            right: 5px;
+        }
+        .container {
+            animation: changecolor 3s infinite;
+        }
+
+
+@keyframes changecolor{
+    0% {
+        background-color: whitesmoke;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: darkorange;
+    }
+    75% {
+
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
