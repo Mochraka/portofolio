@@ -11,7 +11,7 @@ function validateLogin() {
         // Menggunakan contoh kondisi sederhana untuk memvalidasi login
         if (username === "raka maulana" && password === "alhamdulillah") {
             result.innerText = ("Login berhasil!")
-            window.location.href = "../home/index.html";
+            window.location.href = "../index2.html";
             return true;
         } else {
             result.innerText = ('Username atau Password salah. Silakan coba lagi.');
