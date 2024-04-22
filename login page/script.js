@@ -11,7 +11,7 @@ function validateLogin() {
         // Menggunakan contoh kondisi sederhana untuk memvalidasi login
         if (username === "raka maulana" && password === "alhamdulillah") {
             result.innerText = ("Login berhasil!")
-            window.location.href = "index1.html";
+            window.location.href = "https://mochraka.github.io/Portofolio1/";
             return true;
         } else {
             result.innerText = ('Username atau Password salah. Silakan coba lagi.');
